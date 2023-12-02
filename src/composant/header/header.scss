@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-color: black;
+    color:white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    margin: auto;
+    ul {
+        li {
+            cursor: pointer;
+            a {
+                text-decoration: none;
+                color:white;
+            }
+        }
+        img{
+            width: 80px;
+        }
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        list-style-type:none;
+        align-items: center;
+        padding-inline-start: 0px;
+        padding-right:30px;
+        padding-left: 30px;
+
+    }
+}

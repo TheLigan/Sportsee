@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.sidebar {
+    height: calc(100vh - 80px);
+    background-color: black;
+    width: 100px;
+    margin-top: 0;
+    padding-top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .copyright{
+        font-size: 12px;
+        position: absolute;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        bottom: 100px;
+        color: white;
+        transform: rotate(180deg);
+    }
+}
